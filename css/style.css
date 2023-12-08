@@ -12,11 +12,17 @@
 }
 
 :root {
+<<<<<<< HEAD
     --bg-color: #87CEEB #87CEEB;
     --text-color: #333;
     --main-color: #008000;
+=======
+    --bg-color: #fdfdfd;
+    --text-color: #5F3F31;
+    --main-color: #438E20;
+>>>>>>> 73b23e0819b4160ecbcfd0f480deed2b63ef7688
     --white-color: #fdfdfd;
-    --shadow-color: rgba(0, 0, 0, .2);
+    --shadow-color: #3CA8E6;
 }
 
 *::selection {
