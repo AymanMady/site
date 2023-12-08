@@ -12,9 +12,9 @@
 }
 
 :root {
-    --bg-color: #fdfdfd;
-    --text-color: #5F3F31;
-    --main-color: #438E20;
+    --bg-color: #87CEEB #87CEEB;
+    --text-color: #333;
+    --main-color: #008000;
     --white-color: #fdfdfd;
     --shadow-color: #3CA8E6;
 }
@@ -348,12 +348,12 @@ span {
 
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: var(--bg-color);
+    background: #3CA8E6;
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
     text-align: center;
-    border-top: .6rem solid var(--main-color);
+    border-top: .6rem solid green;
     border-bottom: .6rem solid var(--main-color);
     transition: .5s ease;
 }
