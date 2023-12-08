@@ -12,11 +12,15 @@
 }
 
 :root {
-    --bg-color: #87CEEB #87CEEB;
+    --bg-color: #fdfdfd;
     --text-color: #333;
     --main-color: #008000;
     --white-color: #fdfdfd;
+<<<<<<< HEAD
     --shadow-color: rgba(0, 0, 0, .2);
+=======
+    --shadow-color: #008000;
+>>>>>>> 6e521bed2794451fd82c4ee175c2f1e68ce3b863
 }
 
 *::selection {
@@ -348,7 +352,11 @@ span {
 
 .services-container .services-box {
     flex: 1 1 30rem;
+<<<<<<< HEAD
     background: var(--bg-color);
+=======
+    background: #fdfdfd;
+>>>>>>> 6e521bed2794451fd82c4ee175c2f1e68ce3b863
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
