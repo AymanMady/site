@@ -13,10 +13,10 @@
 
 :root {
     --bg-color: #fdfdfd;
-    --text-color: #5F3F31;
-    --main-color: #438E20;
+    --text-color: #333;
+    --main-color: #754ef9;
     --white-color: #fdfdfd;
-    --shadow-color: #3CA8E6;
+    --shadow-color: rgba(0, 0, 0, .2);
 }
 
 *::selection {
@@ -348,7 +348,7 @@ span {
 
 .services-container .services-box {
     flex: 1 1 30rem;
-    background: #3CA8E6;
+    background: var(--bg-color);
     padding: 3rem 2rem 4rem;
     border-radius: 2rem;
     box-shadow: 0 .1rem .5rem var(--shadow-color);
